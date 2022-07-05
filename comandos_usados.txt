@@ -1,0 +1,23 @@
+
+Instalar nestjs
+npm i -g @nestjs/cli 
+
+Criar nova aplicação nestjs chamada api-smartranking
+nest new api-smartranking
+
+
+*** os comandos do Module e do Controller são usados na pasta raiz da aplicação
+*** os próprios comandos criam uma pasta jogadores dentro da pasta src e criam o Module e o Controller dentro dela
+*** esses comandos também já fazem algumas injeções de dependência (no app.module.ts)
+
+Criar um novo Module chamado jogadores
+nest g module jogadores
+
+Criar um novo Controller chamado jogadores
+nest g controller jogadores
+
+Criar um novo Service
+nest g service jogadores
+
+
+npm install uuid
